@@ -1,0 +1,9 @@
+<div class="container">
+  <h2 class="title">Related Articles</h2>
+  <div class="container-articles">
+    <div *ngFor="let relatedArticle of relatedArticles">
+      <app-article-card [relatedArticle]="relatedArticle" />
+    </div>
+  </div>
+</div>
+  

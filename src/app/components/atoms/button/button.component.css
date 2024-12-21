@@ -1,0 +1,30 @@
+.simple-btn {
+  display: flex;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 450;
+  align-items: center;
+  gap: 3px;
+  background: none;
+  border: none;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  cursor: pointer;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 450;
+  align-items: center;
+  gap: 3px;
+  background: none;
+  border: none;
+  transition: 0.1s ease-in-out;
+}
+
+.btn:hover {
+  font-size: 16px;
+  font-weight: 550;
+}

@@ -1,0 +1,29 @@
+<div
+  *ngIf="validateCard()"
+  [ngClass]="{
+    container: validateCard(),
+    ' container-invalid': !validateCard()
+  }"
+>
+  <div class="image-container">
+    <app-image-small
+      [url]="relatedArticle?.image?.url"
+      [description]="relatedArticle?.image?.description"
+    />
+  </div>
+  <div class="content-container">
+    <p class="date">
+      {{ formatDate(relatedArticle?.date) }}
+    </p>
+    <h4>
+      {{ relatedArticle?.title }}
+    </h4>
+    <div class="content">
+      {{
+        (relatedArticle?.description?.length ?? 0) > maxLen
+          ? (relatedArticle?.description | slice : 0 : maxLen) + "..."
+          : relatedArticle?.description
+      }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="article-container">
+  <app-article-title>{{ article?.title }}</app-article-title>
+  <!-- <img
+    [src]="article?.image?.url"
+    [alt]="article?.image?.description"
+    class="image"
+  /> -->
+  <div  *ngFor="let item of article?.content">
+    <app-article-content [content]="item" />
+  </div>
+</div>

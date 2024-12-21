@@ -1,0 +1,6 @@
+<app-button-atom [hover]="hover">
+  <ng-container *ngIf="icon">
+    <mat-icon aria-hidden="false" fontIcon="{{ icon }}" />
+  </ng-container>
+  <ng-content></ng-content>
+</app-button-atom>
