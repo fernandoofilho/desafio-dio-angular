@@ -8,32 +8,24 @@ Este projeto é um blog desenvolvido como desafio do curso da Digital Innovation
 - **TypeScript**: Linguagem principal utilizada no desenvolvimento.
 - **CSS/SCSS**: Para estilização dos componentes.
 - **HTML**: Estruturação das páginas.
-- **API REST**: Para consumo de dados dinâmicos (se aplicável).
-
-## Funcionalidades
-
-- Criação e edição de postagens de blog.
-- Visualização de lista de posts.
-- Interface amigável e responsiva.
-- Estrutura modular para facilitar manutenção e expansão.
 
 ## Estrutura do Projeto
 
 O projeto segue uma organização modular, com componentes e serviços separados para melhor manutenção e expansão:
 
 - **src/app**: Contém os módulos, componentes e serviços.
-- **assets**: Contém arquivos estáticos como imagens, fontes e estilos globais.
+- **components**: Contém os componentes organizados seguindo o Atomic Design.
 
 ## Como Executar o Projeto
 
 1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/angular-blog.git
+   ```bash[
+   git clone https://github.com/fernandoofilho/desafio-dio-angular.git
    ```
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd angular-blog
+   cd desafio-dio-angular
    ```
 
 3. Instale as dependências:
