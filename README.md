@@ -1,27 +1,79 @@
-# CrudSimplesAngular
+# Angular Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+Este projeto é um blog desenvolvido como desafio do curso da Digital Innovation One (DIO), utilizando o framework Angular. A ideia principal é aplicar conhecimentos adquiridos durante o curso e criar uma aplicação web funcional e responsiva.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular**: Framework para criação de aplicações web modernas.
+- **TypeScript**: Linguagem principal utilizada no desenvolvimento.
+- **CSS/SCSS**: Para estilização dos componentes.
+- **HTML**: Estruturação das páginas.
+- **API REST**: Para consumo de dados dinâmicos (se aplicável).
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Criação e edição de postagens de blog.
+- Visualização de lista de posts.
+- Interface amigável e responsiva.
+- Estrutura modular para facilitar manutenção e expansão.
 
-## Build
+## Estrutura do Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+O projeto segue uma organização modular, com componentes e serviços separados para melhor manutenção e expansão:
 
-## Running unit tests
+- **src/app**: Contém os módulos, componentes e serviços.
+- **assets**: Contém arquivos estáticos como imagens, fontes e estilos globais.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Como Executar o Projeto
 
-## Running end-to-end tests
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/angular-blog.git
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd angular-blog
+   ```
 
-## Further help
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+4. Execute o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   ```
+
+5. Abra o navegador e acesse:
+   ```
+   http://localhost:4200
+   ```
+
+## Como Contribuir
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature/bugfix:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Commit suas alterações:
+   ```bash
+   git commit -m "Adiciona nova funcionalidade"
+   ```
+4. Envie para o seu repositório:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um Pull Request no repositório original.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+Sinta-se à vontade para explorar, sugerir melhorias e colaborar!
